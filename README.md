@@ -1,0 +1,2 @@
+# Transport_management_system
+This is my transport management system web project. Here I made a login for admin & and manager & and normal visitor can check the services of transport vehicles. In admin login, the admin has full authority to make changes in services. Admin can  create an account of manager in manager profile and truck status admin can make changes. Managers can change the status of the truck
