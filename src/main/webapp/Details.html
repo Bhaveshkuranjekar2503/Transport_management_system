@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Getting Trucks Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.pexels.com/photos/1153810/pexels-photo-1153810.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1080&w=1920');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 50px auto;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            text-align: center;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background: #0056b3;
+        }
+        h1 a {
+            font-size: 20px;
+        }
+        .back-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 15px;
+            display: block;
+            transition: background 0.3s, color 0.3s;
+        }
+        nav ul li a:hover {
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+        }
+        .content {
+            margin-top: 70px; /* Adjust to the height of the header */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="recentlyInstalledTrucks">RECENTLY INSTALLED TRUCKS</a></li>
+                <li><a href="UpdateStatus.jsp">STATUS</a></li>
+                <li><a href="comingTrucks">TOWARDS HERE</a></li>
+                <li><a href="TruckRoot.html">SERVICES</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container content">
+        <h2>WELCOME TO OUR TRUCK TRACKING COMPANY</h2>
+        <p>
+            You can find all the information regarding our transport company's services, trucks and can contact 
+            us to get your vehicle installed in our company.
+        </p>
+        <p>
+            You can find how many vehicles are on the road through our company to your city or closest to it.
+        </p>
+        <a href="comingTrucks">Trucks coming towards your branch - Click here for details</a> 
+
+        <h1><a href="UpdateStatus.jsp">View all truck status and update its status</a></h1>
+
+        <h1><a href="TruckRoot.html">Check services / Number of trucks on each route</a></h1>
+
+        <h1><a href="recentlyInstalledTrucks">See recently installed trucks (last 1 month)</a></h1>
+
+        <div class="back-link">
+            <a href="Index.html">Go back</a>
+        </div>
+    </div>
+</body>
+</html>

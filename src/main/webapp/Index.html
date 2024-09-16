@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .main-banner {
+            text-align: center;
+            background-color: #E4E8DC;
+            padding: 20px;
+        }
+
+        .main-banner h1 {
+            color: #75854A;
+        }
+
+        .main-banner a {
+            color: #75854A;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .welcome, .featured-services, .login-form, .featured-events {
+            background-color: #DDE4C5;
+            padding: 20px;
+            margin: 10px;
+            flex-basis: 45%;
+        }
+
+        .welcome h2, .featured-services h3, .login-form h3, .featured-events h3 {
+            color: #75854A;
+        }
+
+        .images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .images img {
+            max-width: 150px;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="recentlyInstalledTrucks">RECENTLY INSTALLED TRUCKS</a></li>
+                <li><a href="TruckRoot.html">SERVICES</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-banner">
+            <h1>MOST CONVENIENT & RELIABLE TRANSPORT SERVICES</h1>
+            <a href="#">Click here for details</a>
+        </section>
+        <section class="container">
+            <div class="content">
+                <div class="welcome">
+                    <h2>WELCOME TO OUR TRUCK TRACKING COMPANY</h2>
+                    <p>You can find all the information regarding our transport company's services, trucks, and can contact us to get your vehicle installed in our company.</p>
+                    <p>You can find how many vehicles are on the road through my company to your city or closest to it.</p>
+                </div>
+                <div class="featured-services">
+                    <h3>FEATURED SERVICES</h3>
+                    <ul>
+                        <li><a href="#">Free Core Java tutorial</a></li>
+                        <li><a href="#">JSP tutorial</a></li>
+                        <li><a href="#">Free Android Tutorial</a></li>
+                        <li><a href="#">Struts and Hibernate Tutorial</a></li>
+                        <li><a href="#">More Projects</a></li>
+                        <li><a href="#">C, C++ Tutorial</a></li>
+                        <li><a href="#">The Forum</a></li>
+                        <li><a href="#">HTML, SQL Tutorial</a></li>
+                    </ul>
+                </div>
+                <div class="login-form">
+                    <h3>Login Form</h3>
+                    <form action="manager" method="post">
+                        <label for="branch">Select a Branch:</label>
+                        <select id="branch" name="branch">
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Nagpur">Nagpur</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Pune">Pune</option>
+                        </select>
+                        <br>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username">
+                        <br>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                        <br>
+                        <button type="submit">Login</button>
+                        <a href="Login.jsp">Login as Admin</a>
+                    </form>
+                </div>
+                <div class="featured-events">
+                    <h3>FEATURED EVENTS</h3>
+                    <ul>
+                        <li><a href="#">More Projects</a></li>
+                        <li><a href="#">C, C++ Tutorial</a></li>
+                        <li><a href="#">The Forum</a></li>
+                        <li><a href="#">HTML, SQL Tutorial</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="images">
+                <img src="Clock.avif" alt="Clock Image">
+                <img src="person.png" alt="Person Image">
+                <img src="fragile.webp" alt="Fragile Image">
+                <img src="truck.jpeg" alt="Truck Image">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
